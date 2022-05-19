@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightOwl.Android", "NightOwl.Android\NightOwl.Android.csproj", "{18346083-283B-4CA4-B709-8E457476F527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightOwl", "NightOwl\NightOwl.csproj", "{59F766DF-38C2-4676-B929-E304DCC60C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18346083-283B-4CA4-B709-8E457476F527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18346083-283B-4CA4-B709-8E457476F527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18346083-283B-4CA4-B709-8E457476F527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18346083-283B-4CA4-B709-8E457476F527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F766DF-38C2-4676-B929-E304DCC60C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F766DF-38C2-4676-B929-E304DCC60C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F766DF-38C2-4676-B929-E304DCC60C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F766DF-38C2-4676-B929-E304DCC60C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26FDEB29-3A62-443A-9FA4-3625D08B7730}
+	EndGlobalSection
+EndGlobal
