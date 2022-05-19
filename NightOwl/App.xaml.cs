@@ -1,6 +1,5 @@
-﻿using System;
+﻿using NightOwl.Views.Terms;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace NightOwl
 {
@@ -10,7 +9,7 @@ namespace NightOwl
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new TermsPage());
         }
 
         protected override void OnStart ()

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="NightOwl.Views.Terms.TermDetailPage">
+
+   <TableView Intent="Form" Margin="16,0">
+	<TableRoot>
+		<TableSection Title="Term Info">
+			<EntryCell Label="Name" Text="{Binding Path=Term.Title}" />
+		</TableSection>
+
+		<TableSection Title="Dates">
+			<EntryCell Label="Start" Text="{Binding Path=Term.StartDate}" />
+			<EntryCell Label="End" Text="{Binding Path=Term.EndDate}" />
+		</TableSection>
+	
+		<TableSection>
+			<ViewCell>
+				<Button Text="Save" Command="{Binding SaveCommand}" />
+			</ViewCell>
+		</TableSection>
+	</TableRoot>
+   </TableView>
+</ContentPage>
